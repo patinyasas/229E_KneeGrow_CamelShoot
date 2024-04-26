@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D col)
     {
-        if (collision.gameObject.tag.Equals("Stuff"))
+        if (col.gameObject.tag.Equals("Stuff"))
         {
-            Destroy(collision.gameObject);
+            Destroy(col.gameObject);
             Destroy(gameObject);
         }
     }
