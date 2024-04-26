@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     {
         if (col.gameObject.tag.Equals("Stuff"))
         {
+            ScoreSystem.scoreValue += 10;
             Destroy(col.gameObject);
             Destroy(gameObject);
         }
