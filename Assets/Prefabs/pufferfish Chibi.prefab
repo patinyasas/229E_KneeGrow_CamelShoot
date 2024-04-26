@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5569917312611897913}
   - component: {fileID: -1969805090045570848}
   - component: {fileID: -5089473696617317235}
+  - component: {fileID: -7834718331825935298}
   m_Layer: 0
   m_Name: pufferfish Chibi
   m_TagString: Stuff
@@ -226,3 +227,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-7834718331825935298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8179551292552755497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29396e0747640064fa4aa417535a087f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

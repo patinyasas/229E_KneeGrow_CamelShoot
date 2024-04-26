@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6687045037408094281}
   - component: {fileID: -8812712543876245006}
   - component: {fileID: 541634022654410292}
+  - component: {fileID: -563893010985816500}
   m_Layer: 0
   m_Name: camel chibi
   m_TagString: Stuff
@@ -192,3 +193,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-563893010985816500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3744229316392310526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29396e0747640064fa4aa417535a087f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
