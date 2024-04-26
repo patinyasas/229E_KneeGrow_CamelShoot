@@ -34,4 +34,5 @@ public class Projectile : MonoBehaviour
         Vector2 result = new Vector2(velocityX, velocityY);
         return result;
     }
+    
 }
